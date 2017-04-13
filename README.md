@@ -36,8 +36,6 @@ To install all Node.js packages, run:
 
 ```
 npm install
-npm install -g gulp
-npm install -g webpack
 ```
 
 The source files can then be compiled by running:
