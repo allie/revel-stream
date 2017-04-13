@@ -22,6 +22,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
 	"watch:webpack": "webpack --progress --color --watch",
 	"watch:gulp": "gulp watch",
+	"build:webpack": "webpack --progress --color",
+	"build:gulp": "gulp",
 	"serve": "revel run github.com/allie/revel-stream dev"
   },
   "repository": {
