@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>{{ .user }}'s stream</title>
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+	<link href="/public/css/main.css" rel="stylesheet">
+</head>
+<body>
+	<main>
+		<section id="player">
+			<video id="player-video" class="video-js vjs-default-skin vjs-fill" controls preload="auto" width="640" height="264">
+				<source src="{{ .base }}/{{ .user }}.mpd" type="application/dash+xml"/>
+			</video>
+		</section>
+	</main>
+
+	<script src="/public/js/bundle.js"></script>
+</body>
+</html>

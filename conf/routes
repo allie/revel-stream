@@ -1,0 +1,4 @@
+GET     /                                       Stream.Index
+GET		/:user									Stream.Watch
+POST	/auth									Stream.Auth
+GET		/public/*filepath						Static.Serve("public")
